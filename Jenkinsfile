@@ -4,7 +4,7 @@ agent any // Runs on any available agent
 stages {
 stage('Complie') {
 steps {
-bat 'javac Hello.java'
+bat 'javac hello.java'
 }
 }
 
