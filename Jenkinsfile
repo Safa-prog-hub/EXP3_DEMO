@@ -10,7 +10,7 @@ bat 'javac hello.java'
 
 stage('Run') {
 steps {
-bat 'java Hello'
+bat 'java hello'
 }
 
 }
